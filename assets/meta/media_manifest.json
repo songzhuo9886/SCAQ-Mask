@@ -1,0 +1,285 @@
+{
+  "date": "2026-10-22",
+  "video": {
+    "file": "assets/demo/scaq_mask_demo.mp4",
+    "sha256": "c050c7c43870619a73c65d1a999f1d1802a3a721b8f5cbc01db981392b33fc95",
+    "duration_seconds": 58,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "model_in_qualitative_predictions": "A4 sampling variant",
+    "prediction_views": 20,
+    "complete_101_frame_prediction_sequence": false
+  },
+  "GIF": {
+    "file": "assets/demo/preview.gif",
+    "source_ranges_seconds": [
+      [
+        1,
+        4
+      ],
+      [
+        43.4,
+        48.4
+      ]
+    ],
+    "fps": 6,
+    "time_resampling": "Frame selection only; no optical flow or synthesized masks."
+  },
+  "method_panels": {
+    "source": "Uncompressed stills recreated with the supplied video renderer",
+    "video_times_seconds": {
+      "sampling": 12.5,
+      "auxiliary": 23.5,
+      "comparison": 30.5
+    }
+  },
+  "examples": [
+    {
+      "example": 1,
+      "image_id": "seq_000009_000007",
+      "original_split": "test",
+      "files": {
+        "rgb": "assets/examples/sample01_rgb.png",
+        "gt": "assets/examples/sample01_gt.png",
+        "pred": "assets/examples/sample01_pred.png"
+      },
+      "source_rgb_sha256": "c1e9d9f793a66bd9badcf809ae594aa5afd6b62b6a85cddb07c9182d5306d4e4",
+      "source_GT_sha256": "c404de71a2cc9ae4aa030ee88e46658e28f9c23a43651852fb8660bda981e205",
+      "source_prediction_sha256": "ab53bd2660afe5338f2989688e29d6eb9835261b3818cfe8e6ac48e0d48f6af7",
+      "label_protocol": "Single-channel IDs 0-14; GT and prediction shown with the same palette.",
+      "color_palette": "v12 comparison palette used in the supplied video",
+      "prediction_identity": "A4 sampling variant; not final Full",
+      "source_prediction_relative_to_project": "paper_results/small_component_results_v12_large/00_raw_predictions/scaq_mask/seq_000009_000007.png"
+    },
+    {
+      "example": 2,
+      "image_id": "seq_000009_000089",
+      "original_split": "test",
+      "files": {
+        "rgb": "assets/examples/sample02_rgb.png",
+        "gt": "assets/examples/sample02_gt.png",
+        "pred": "assets/examples/sample02_pred.png"
+      },
+      "source_rgb_sha256": "570c8f355e6d7d719977d3587b5fa4538f633d119e680422cc361bec20df9ba2",
+      "source_GT_sha256": "5a39af779b9fb8c5a54ca983f3f83b30b2da1a62a9509c88f13fba23343bebd1",
+      "source_prediction_sha256": "e066c984dc9065828e3a2d3afb6fe6eff17e80376fdaf0371522d1494b26d5f0",
+      "label_protocol": "Single-channel IDs 0-14; GT and prediction shown with the same palette.",
+      "color_palette": "v12 comparison palette used in the supplied video",
+      "prediction_identity": "A4 sampling variant; not final Full",
+      "source_prediction_relative_to_project": "paper_results/small_component_results_v12_large/00_raw_predictions/scaq_mask/seq_000009_000089.png"
+    }
+  ],
+  "palette": [
+    {
+      "class_id": 0,
+      "class_name": "Background",
+      "rgb": [
+        18,
+        18,
+        18
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "Camera",
+      "rgb": [
+        0,
+        158,
+        115
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "High-Gain Antenna",
+      "rgb": [
+        213,
+        94,
+        0
+      ]
+    },
+    {
+      "class_id": 3,
+      "class_name": "Reaction Wheels",
+      "rgb": [
+        0,
+        114,
+        178
+      ]
+    },
+    {
+      "class_id": 4,
+      "class_name": "Solar Array",
+      "rgb": [
+        230,
+        159,
+        0
+      ]
+    },
+    {
+      "class_id": 5,
+      "class_name": "Ion Thruster",
+      "rgb": [
+        240,
+        228,
+        66
+      ]
+    },
+    {
+      "class_id": 6,
+      "class_name": "GRaND",
+      "rgb": [
+        204,
+        121,
+        167
+      ]
+    },
+    {
+      "class_id": 7,
+      "class_name": "Earth background",
+      "rgb": [
+        187,
+        187,
+        187
+      ]
+    },
+    {
+      "class_id": 8,
+      "class_name": "Body",
+      "rgb": [
+        86,
+        180,
+        233
+      ]
+    },
+    {
+      "class_id": 9,
+      "class_name": "Low-Gain Antenna",
+      "rgb": [
+        166,
+        118,
+        29
+      ]
+    },
+    {
+      "class_id": 10,
+      "class_name": "VIR",
+      "rgb": [
+        136,
+        34,
+        85
+      ]
+    },
+    {
+      "class_id": 11,
+      "class_name": "SADM",
+      "rgb": [
+        68,
+        170,
+        153
+      ]
+    },
+    {
+      "class_id": 12,
+      "class_name": "Separation Ring",
+      "rgb": [
+        136,
+        204,
+        238
+      ]
+    },
+    {
+      "class_id": 13,
+      "class_name": "Star Tracker",
+      "rgb": [
+        153,
+        153,
+        51
+      ]
+    },
+    {
+      "class_id": 14,
+      "class_name": "CSS",
+      "rgb": [
+        238,
+        102,
+        119
+      ]
+    }
+  ],
+  "scientific_scope": "Full-method metrics follow the supplied manuscript. Qualitative predictions are A4. No new inference or evaluation was performed for this media package.",
+  "files": [
+    {
+      "path": "assets/demo/cover.png",
+      "bytes": 915880,
+      "sha256": "d046c2073cae29962d60e48ecba1bbec83670433bd11bd7867600f6cbcafc483"
+    },
+    {
+      "path": "assets/demo/preview.gif",
+      "bytes": 2098524,
+      "sha256": "4dd62381febe4d9cce760010d2b15b9716ca5af4b3157590ea6fa9c48cebdc20"
+    },
+    {
+      "path": "assets/demo/scaq_mask_demo.mp4",
+      "bytes": 8140684,
+      "sha256": "c050c7c43870619a73c65d1a999f1d1802a3a721b8f5cbc01db981392b33fc95"
+    },
+    {
+      "path": "assets/examples/palette.png",
+      "bytes": 21744,
+      "sha256": "036a56a3e0c76299fe0e3d0f63b84d2f784cce506eeddcac0cba2e7373ed2c7b"
+    },
+    {
+      "path": "assets/examples/sample01_gt.png",
+      "bytes": 11218,
+      "sha256": "81bb2b750b4296302beaa60ea0a87a88847eb5c074d7bfb851288d0ac09b7c6a"
+    },
+    {
+      "path": "assets/examples/sample01_pred.png",
+      "bytes": 11835,
+      "sha256": "c3358c89d4ee4370050ec8a230323fca7c32da43a949d39bd32ab54d32ff2e67"
+    },
+    {
+      "path": "assets/examples/sample01_rgb.png",
+      "bytes": 774657,
+      "sha256": "544b2a9c1ad8aa9145a5d5aef9410d794e4e71557d9be6e19e6851a1327e61ed"
+    },
+    {
+      "path": "assets/examples/sample02_gt.png",
+      "bytes": 15603,
+      "sha256": "dc150067431701490bd5cc6b0b9f818d1ce572582a42b94c9b9d19f5987e2755"
+    },
+    {
+      "path": "assets/examples/sample02_pred.png",
+      "bytes": 15031,
+      "sha256": "23627911949e39d2407caf0161c2327d3aee494db5931e2301b349af3b1fc04f"
+    },
+    {
+      "path": "assets/examples/sample02_rgb.png",
+      "bytes": 666098,
+      "sha256": "453f58e777d2eb214324cfe35e43dc425a3de01702c9f8317e6c4014c068842a"
+    },
+    {
+      "path": "assets/method/auxiliary.png",
+      "bytes": 58300,
+      "sha256": "ac82432f89b8b9dbf5fd44386fbf8f70d79c6b4e9d8300a455ce4eb138978085"
+    },
+    {
+      "path": "assets/method/comparison.png",
+      "bytes": 340820,
+      "sha256": "e0a5472402a3e840dbdb774713d8582697f9c46f77086bc62b7277a3ff042094"
+    },
+    {
+      "path": "assets/method/sampling.png",
+      "bytes": 636747,
+      "sha256": "450633215a794030d22eae0d381857dd59a792c36c9d154aa003342fbaa46365"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5990,
+      "sha256": "bee9c5a5a09fa947649e5a2de43fa425311f1b96c827d4a7bf5b896794c38f19"
+    }
+  ]
+}
