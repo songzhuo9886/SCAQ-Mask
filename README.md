@@ -4,9 +4,7 @@
 
 ### Small-Component-Aware Query Mask Segmentation for Spacecraft Components in Close-Range On-Orbit Servicing
 
-Zhuo Song · Qin Yang · Zexu Zhang · Fan Zhang · Yingshuo Li · Yicheng Mao · Wenjun Tian · Jingchen Yan · Weimin Bao
 
-Harbin Institute of Technology · China Aerospace Science and Technology Corporation
 
 [Demonstration](#demonstration-video) · [Method](#method) · [Dataset examples](#dataset-examples) · [Results](#experimental-results)
 
